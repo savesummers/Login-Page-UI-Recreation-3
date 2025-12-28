@@ -1,0 +1,110 @@
+body {
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+h2 {
+    color: rgb(252, 140, 43);
+    text-align: center;
+    margin-bottom: 40px;
+}
+.Area2 {
+    width: 650px;
+    height: 100vh;
+    background-color: white;
+    margin : 0px;
+    position:absolute;
+    top:0px;
+    right:0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.Area1 {
+    width: 650px;
+    height: 100vh;
+    margin:0px;
+    align-content: center;
+    padding-left: 110px;
+    padding-right: 110px;
+    position: relative;
+    bottom: 65px;
+}
+.position {
+    display: inline-flex;
+    align-content: first baseline;
+}
+h1 {
+    font-size: 68px;
+}
+#Area1 {
+    font-size: 29px;
+}
+input {
+    display: flex;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: rgb(235, 232, 229);
+    border-style: none;
+    padding-left: 35px ;
+    padding-right: 35px;
+}
+
+a#Forgot {
+    color: black;
+    text-decoration: none;
+    margin-left: 145px;
+}
+
+.last {
+    color: black;
+    display: inline;
+}
+#show {
+    display : inline;
+    margin: 0px;
+    margin-right: 5px;
+    margin-bottom: 40px;
+}
+#email{
+    width: 330px;
+    height: 35px;
+    background-image: url(Images/user\ \(1\).svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: left;
+    background-position: 10px;
+}
+#password{
+    width: 330px;
+    height: 35px;
+    background-image: url(Images/lock.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: left;
+    background-position: 10px;
+}
+#Loginb{
+    height: 35px; 
+    width: 150px;
+    background: linear-gradient(90deg, rgb(0, 234, 255), rgb(252, 141, 43));
+    color: white;
+}
+#Forgot:hover {
+    text-decoration: underline;
+}
+#Loginb {
+    transition: transform 1.3s ease-in-out;
+}
+
+#Loginb:hover {
+    transform: scale(1.2);
+}
+#Loginb:active {
+    filter: grayscale(100%);
+}
